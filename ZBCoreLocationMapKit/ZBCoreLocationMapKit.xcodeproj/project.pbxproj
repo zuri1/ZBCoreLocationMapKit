@@ -21,6 +21,8 @@
 		8A76B669183BF87700CA92A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A76B64B183BF87700CA92A3 /* UIKit.framework */; };
 		8A76B671183BF87700CA92A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A76B66F183BF87700CA92A3 /* InfoPlist.strings */; };
 		8A76B673183BF87700CA92A3 /* ZBCoreLocationMapKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A76B672183BF87700CA92A3 /* ZBCoreLocationMapKitTests.m */; };
+		8A76B67D183BF9D800CA92A3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A76B67C183BF9D800CA92A3 /* MapKit.framework */; };
+		8A76B67F183BFC6900CA92A3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A76B67E183BFC6900CA92A3 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		8A76B66E183BF87700CA92A3 /* ZBCoreLocationMapKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZBCoreLocationMapKitTests-Info.plist"; sourceTree = "<group>"; };
 		8A76B670183BF87700CA92A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A76B672183BF87700CA92A3 /* ZBCoreLocationMapKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBCoreLocationMapKitTests.m; sourceTree = "<group>"; };
+		8A76B67C183BF9D800CA92A3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8A76B67E183BFC6900CA92A3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreLocation.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A76B64A183BF87700CA92A3 /* CoreGraphics.framework in Frameworks */,
+				8A76B67F183BFC6900CA92A3 /* CoreLocation.framework in Frameworks */,
 				8A76B64C183BF87700CA92A3 /* UIKit.framework in Frameworks */,
+				8A76B67D183BF9D800CA92A3 /* MapKit.framework in Frameworks */,
 				8A76B648183BF87700CA92A3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +107,8 @@
 		8A76B646183BF87700CA92A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A76B67E183BFC6900CA92A3 /* CoreLocation.framework */,
+				8A76B67C183BF9D800CA92A3 /* MapKit.framework */,
 				8A76B647183BF87700CA92A3 /* Foundation.framework */,
 				8A76B649183BF87700CA92A3 /* CoreGraphics.framework */,
 				8A76B64B183BF87700CA92A3 /* UIKit.framework */,
@@ -200,6 +208,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Zuri Biringer";
 				TargetAttributes = {
+					8A76B643183BF87700CA92A3 = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					8A76B664183BF87700CA92A3 = {
 						TestTargetID = 8A76B643183BF87700CA92A3;
 					};
@@ -379,6 +394,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/zuribiringer/ZBCoreLocationMapKit/ZBCoreLocationMapKit,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZBCoreLocationMapKit/ZBCoreLocationMapKit-Prefix.pch";
 				INFOPLIST_FILE = "ZBCoreLocationMapKit/ZBCoreLocationMapKit-Info.plist";
@@ -392,6 +411,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/zuribiringer/ZBCoreLocationMapKit/ZBCoreLocationMapKit,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZBCoreLocationMapKit/ZBCoreLocationMapKit-Prefix.pch";
 				INFOPLIST_FILE = "ZBCoreLocationMapKit/ZBCoreLocationMapKit-Info.plist";
