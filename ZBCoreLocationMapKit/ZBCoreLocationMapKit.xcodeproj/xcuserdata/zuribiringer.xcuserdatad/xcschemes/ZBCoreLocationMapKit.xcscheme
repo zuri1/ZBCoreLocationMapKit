@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8A76B643183BF87700CA92A3"
+               BlueprintIdentifier = "8A05EC6E183C1F5A00592DA5"
                BuildableName = "ZBCoreLocationMapKit.app"
                BlueprintName = "ZBCoreLocationMapKit"
                ReferencedContainer = "container:ZBCoreLocationMapKit.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8A76B664183BF87700CA92A3"
+               BlueprintIdentifier = "8A05EC8F183C1F5C00592DA5"
                BuildableName = "ZBCoreLocationMapKitTests.xctest"
                BlueprintName = "ZBCoreLocationMapKitTests"
                ReferencedContainer = "container:ZBCoreLocationMapKit.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8A76B643183BF87700CA92A3"
+            BlueprintIdentifier = "8A05EC6E183C1F5A00592DA5"
             BuildableName = "ZBCoreLocationMapKit.app"
             BlueprintName = "ZBCoreLocationMapKit"
             ReferencedContainer = "container:ZBCoreLocationMapKit.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8A76B643183BF87700CA92A3"
+            BlueprintIdentifier = "8A05EC6E183C1F5A00592DA5"
             BuildableName = "ZBCoreLocationMapKit.app"
             BlueprintName = "ZBCoreLocationMapKit"
             ReferencedContainer = "container:ZBCoreLocationMapKit.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8A76B643183BF87700CA92A3"
+            BlueprintIdentifier = "8A05EC6E183C1F5A00592DA5"
             BuildableName = "ZBCoreLocationMapKit.app"
             BlueprintName = "ZBCoreLocationMapKit"
             ReferencedContainer = "container:ZBCoreLocationMapKit.xcodeproj">
