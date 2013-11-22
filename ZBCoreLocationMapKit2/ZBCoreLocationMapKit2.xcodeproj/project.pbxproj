@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AC4CDBD183EA544004321EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4CDBC183EA544004321EF /* Foundation.framework */; };
+		8AC4CDBF183EA544004321EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4CDBE183EA544004321EF /* CoreGraphics.framework */; };
+		8AC4CDC1183EA544004321EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4CDC0183EA544004321EF /* UIKit.framework */; };
+		8AC4CDC7183EA544004321EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4CDC5183EA544004321EF /* InfoPlist.strings */; };
+		8AC4CDC9183EA544004321EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4CDC8183EA544004321EF /* main.m */; };
+		8AC4CDCD183EA544004321EF /* ZBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4CDCC183EA544004321EF /* ZBAppDelegate.m */; };
+		8AC4CDD0183EA544004321EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4CDCE183EA544004321EF /* Main.storyboard */; };
+		8AC4CDD3183EA544004321EF /* ZBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4CDD2183EA544004321EF /* ZBViewController.m */; };
+		8AC4CDD5183EA544004321EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4CDD4183EA544004321EF /* Images.xcassets */; };
+		8AC4CDDC183EA545004321EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4CDDB183EA545004321EF /* XCTest.framework */; };
+		8AC4CDDD183EA545004321EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4CDBC183EA544004321EF /* Foundation.framework */; };
+		8AC4CDDE183EA545004321EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4CDC0183EA544004321EF /* UIKit.framework */; };
+		8AC4CDE6183EA545004321EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4CDE4183EA545004321EF /* InfoPlist.strings */; };
+		8AC4CDE8183EA545004321EF /* ZBCoreLocationMapKit2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4CDE7183EA545004321EF /* ZBCoreLocationMapKit2Tests.m */; };
+		8AC4CDF2183EA572004321EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4CDF1183EA572004321EF /* MapKit.framework */; };
+		8AC4CDF4183EA583004321EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4CDF3183EA583004321EF /* CoreLocation.framework */; };
+		8AC4CDF7183EA644004321EF /* ZBAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4CDF6183EA644004321EF /* ZBAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AC4CDDF183EA545004321EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AC4CDB1183EA543004321EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AC4CDB8183EA543004321EF;
+			remoteInfo = ZBCoreLocationMapKit2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AC4CDB9183EA544004321EF /* ZBCoreLocationMapKit2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBCoreLocationMapKit2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC4CDBC183EA544004321EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8AC4CDBE183EA544004321EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AC4CDC0183EA544004321EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8AC4CDC4183EA544004321EF /* ZBCoreLocationMapKit2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZBCoreLocationMapKit2-Info.plist"; sourceTree = "<group>"; };
+		8AC4CDC6183EA544004321EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AC4CDC8183EA544004321EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AC4CDCA183EA544004321EF /* ZBCoreLocationMapKit2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZBCoreLocationMapKit2-Prefix.pch"; sourceTree = "<group>"; };
+		8AC4CDCB183EA544004321EF /* ZBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBAppDelegate.h; sourceTree = "<group>"; };
+		8AC4CDCC183EA544004321EF /* ZBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBAppDelegate.m; sourceTree = "<group>"; };
+		8AC4CDCF183EA544004321EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AC4CDD1183EA544004321EF /* ZBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBViewController.h; sourceTree = "<group>"; };
+		8AC4CDD2183EA544004321EF /* ZBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBViewController.m; sourceTree = "<group>"; };
+		8AC4CDD4183EA544004321EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8AC4CDDA183EA545004321EF /* ZBCoreLocationMapKit2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBCoreLocationMapKit2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC4CDDB183EA545004321EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8AC4CDE3183EA545004321EF /* ZBCoreLocationMapKit2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZBCoreLocationMapKit2Tests-Info.plist"; sourceTree = "<group>"; };
+		8AC4CDE5183EA545004321EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AC4CDE7183EA545004321EF /* ZBCoreLocationMapKit2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBCoreLocationMapKit2Tests.m; sourceTree = "<group>"; };
+		8AC4CDF1183EA572004321EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8AC4CDF3183EA583004321EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8AC4CDF5183EA644004321EF /* ZBAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBAnnotation.h; sourceTree = "<group>"; };
+		8AC4CDF6183EA644004321EF /* ZBAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AC4CDB6183EA543004321EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4CDF4183EA583004321EF /* CoreLocation.framework in Frameworks */,
+				8AC4CDBF183EA544004321EF /* CoreGraphics.framework in Frameworks */,
+				8AC4CDC1183EA544004321EF /* UIKit.framework in Frameworks */,
+				8AC4CDF2183EA572004321EF /* MapKit.framework in Frameworks */,
+				8AC4CDBD183EA544004321EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC4CDD7183EA545004321EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4CDDC183EA545004321EF /* XCTest.framework in Frameworks */,
+				8AC4CDDE183EA545004321EF /* UIKit.framework in Frameworks */,
+				8AC4CDDD183EA545004321EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AC4CDB0183EA543004321EF = {
+			isa = PBXGroup;
+			children = (
+				8AC4CDC2183EA544004321EF /* ZBCoreLocationMapKit2 */,
+				8AC4CDE1183EA545004321EF /* ZBCoreLocationMapKit2Tests */,
+				8AC4CDBB183EA544004321EF /* Frameworks */,
+				8AC4CDBA183EA544004321EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AC4CDBA183EA544004321EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4CDB9183EA544004321EF /* ZBCoreLocationMapKit2.app */,
+				8AC4CDDA183EA545004321EF /* ZBCoreLocationMapKit2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AC4CDBB183EA544004321EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4CDF3183EA583004321EF /* CoreLocation.framework */,
+				8AC4CDF1183EA572004321EF /* MapKit.framework */,
+				8AC4CDBC183EA544004321EF /* Foundation.framework */,
+				8AC4CDBE183EA544004321EF /* CoreGraphics.framework */,
+				8AC4CDC0183EA544004321EF /* UIKit.framework */,
+				8AC4CDDB183EA545004321EF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AC4CDC2183EA544004321EF /* ZBCoreLocationMapKit2 */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4CDCB183EA544004321EF /* ZBAppDelegate.h */,
+				8AC4CDCC183EA544004321EF /* ZBAppDelegate.m */,
+				8AC4CDCE183EA544004321EF /* Main.storyboard */,
+				8AC4CDD1183EA544004321EF /* ZBViewController.h */,
+				8AC4CDD2183EA544004321EF /* ZBViewController.m */,
+				8AC4CDD4183EA544004321EF /* Images.xcassets */,
+				8AC4CDC3183EA544004321EF /* Supporting Files */,
+			);
+			path = ZBCoreLocationMapKit2;
+			sourceTree = "<group>";
+		};
+		8AC4CDC3183EA544004321EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4CDC4183EA544004321EF /* ZBCoreLocationMapKit2-Info.plist */,
+				8AC4CDC5183EA544004321EF /* InfoPlist.strings */,
+				8AC4CDC8183EA544004321EF /* main.m */,
+				8AC4CDCA183EA544004321EF /* ZBCoreLocationMapKit2-Prefix.pch */,
+				8AC4CDF5183EA644004321EF /* ZBAnnotation.h */,
+				8AC4CDF6183EA644004321EF /* ZBAnnotation.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AC4CDE1183EA545004321EF /* ZBCoreLocationMapKit2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4CDE7183EA545004321EF /* ZBCoreLocationMapKit2Tests.m */,
+				8AC4CDE2183EA545004321EF /* Supporting Files */,
+			);
+			path = ZBCoreLocationMapKit2Tests;
+			sourceTree = "<group>";
+		};
+		8AC4CDE2183EA545004321EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4CDE3183EA545004321EF /* ZBCoreLocationMapKit2Tests-Info.plist */,
+				8AC4CDE4183EA545004321EF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AC4CDB8183EA543004321EF /* ZBCoreLocationMapKit2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AC4CDEB183EA546004321EF /* Build configuration list for PBXNativeTarget "ZBCoreLocationMapKit2" */;
+			buildPhases = (
+				8AC4CDB5183EA543004321EF /* Sources */,
+				8AC4CDB6183EA543004321EF /* Frameworks */,
+				8AC4CDB7183EA543004321EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZBCoreLocationMapKit2;
+			productName = ZBCoreLocationMapKit2;
+			productReference = 8AC4CDB9183EA544004321EF /* ZBCoreLocationMapKit2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AC4CDD9183EA545004321EF /* ZBCoreLocationMapKit2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AC4CDEE183EA546004321EF /* Build configuration list for PBXNativeTarget "ZBCoreLocationMapKit2Tests" */;
+			buildPhases = (
+				8AC4CDD6183EA545004321EF /* Sources */,
+				8AC4CDD7183EA545004321EF /* Frameworks */,
+				8AC4CDD8183EA545004321EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AC4CDE0183EA545004321EF /* PBXTargetDependency */,
+			);
+			name = ZBCoreLocationMapKit2Tests;
+			productName = ZBCoreLocationMapKit2Tests;
+			productReference = 8AC4CDDA183EA545004321EF /* ZBCoreLocationMapKit2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AC4CDB1183EA543004321EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Zuri Biringer";
+				TargetAttributes = {
+					8AC4CDB8183EA543004321EF = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					8AC4CDD9183EA545004321EF = {
+						TestTargetID = 8AC4CDB8183EA543004321EF;
+					};
+				};
+			};
+			buildConfigurationList = 8AC4CDB4183EA543004321EF /* Build configuration list for PBXProject "ZBCoreLocationMapKit2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AC4CDB0183EA543004321EF;
+			productRefGroup = 8AC4CDBA183EA544004321EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AC4CDB8183EA543004321EF /* ZBCoreLocationMapKit2 */,
+				8AC4CDD9183EA545004321EF /* ZBCoreLocationMapKit2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AC4CDB7183EA543004321EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4CDD5183EA544004321EF /* Images.xcassets in Resources */,
+				8AC4CDC7183EA544004321EF /* InfoPlist.strings in Resources */,
+				8AC4CDD0183EA544004321EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC4CDD8183EA545004321EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4CDE6183EA545004321EF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AC4CDB5183EA543004321EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4CDF7183EA644004321EF /* ZBAnnotation.m in Sources */,
+				8AC4CDD3183EA544004321EF /* ZBViewController.m in Sources */,
+				8AC4CDCD183EA544004321EF /* ZBAppDelegate.m in Sources */,
+				8AC4CDC9183EA544004321EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC4CDD6183EA545004321EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4CDE8183EA545004321EF /* ZBCoreLocationMapKit2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AC4CDE0183EA545004321EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AC4CDB8183EA543004321EF /* ZBCoreLocationMapKit2 */;
+			targetProxy = 8AC4CDDF183EA545004321EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AC4CDC5183EA544004321EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC4CDC6183EA544004321EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8AC4CDCE183EA544004321EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC4CDCF183EA544004321EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AC4CDE4183EA545004321EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC4CDE5183EA545004321EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AC4CDE9183EA545004321EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8AC4CDEA183EA546004321EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AC4CDEC183EA546004321EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZBCoreLocationMapKit2/ZBCoreLocationMapKit2-Prefix.pch";
+				INFOPLIST_FILE = "ZBCoreLocationMapKit2/ZBCoreLocationMapKit2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8AC4CDED183EA546004321EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZBCoreLocationMapKit2/ZBCoreLocationMapKit2-Prefix.pch";
+				INFOPLIST_FILE = "ZBCoreLocationMapKit2/ZBCoreLocationMapKit2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8AC4CDEF183EA546004321EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZBCoreLocationMapKit2.app/ZBCoreLocationMapKit2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZBCoreLocationMapKit2/ZBCoreLocationMapKit2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZBCoreLocationMapKit2Tests/ZBCoreLocationMapKit2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8AC4CDF0183EA546004321EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZBCoreLocationMapKit2.app/ZBCoreLocationMapKit2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZBCoreLocationMapKit2/ZBCoreLocationMapKit2-Prefix.pch";
+				INFOPLIST_FILE = "ZBCoreLocationMapKit2Tests/ZBCoreLocationMapKit2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AC4CDB4183EA543004321EF /* Build configuration list for PBXProject "ZBCoreLocationMapKit2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC4CDE9183EA545004321EF /* Debug */,
+				8AC4CDEA183EA546004321EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AC4CDEB183EA546004321EF /* Build configuration list for PBXNativeTarget "ZBCoreLocationMapKit2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC4CDEC183EA546004321EF /* Debug */,
+				8AC4CDED183EA546004321EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AC4CDEE183EA546004321EF /* Build configuration list for PBXNativeTarget "ZBCoreLocationMapKit2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC4CDEF183EA546004321EF /* Debug */,
+				8AC4CDF0183EA546004321EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AC4CDB1183EA543004321EF /* Project object */;
+}

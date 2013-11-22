@@ -1,8 +1,8 @@
 //
 //  main.m
-//  ZBCoreLocationMapKit
+//  ZBCoreLocationMapKit2
 //
-//  Created by Zuri Biringer on 11/19/13.
+//  Created by Zuri Biringer on 11/21/13.
 //  Copyright (c) 2013 Zuri Biringer. All rights reserved.
 //
 

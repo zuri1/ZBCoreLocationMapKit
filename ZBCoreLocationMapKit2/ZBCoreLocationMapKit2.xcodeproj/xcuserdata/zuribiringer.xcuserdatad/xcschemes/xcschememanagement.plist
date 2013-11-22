@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ZBCoreLocationMapKit.xcscheme</key>
+		<key>ZBCoreLocationMapKit2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8A05EC6E183C1F5A00592DA5</key>
+		<key>8AC4CDB8183EA543004321EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8A05EC8F183C1F5C00592DA5</key>
+		<key>8AC4CDD9183EA545004321EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

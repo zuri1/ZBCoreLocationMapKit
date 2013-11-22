@@ -1,15 +1,14 @@
 //
 //  ZBViewController.h
-//  ZBCoreLocationMapKit
+//  ZBCoreLocationMapKit2
 //
-//  Created by Zuri Biringer on 11/19/13.
+//  Created by Zuri Biringer on 11/21/13.
 //  Copyright (c) 2013 Zuri Biringer. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
-#import <CoreLocation/CoreLocation.h>
-#import "ZBMapPoint.h"
+#import "ZBAnnotation.h"
 
 @interface ZBViewController : UIViewController
 

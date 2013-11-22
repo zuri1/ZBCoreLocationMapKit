@@ -1,18 +1,18 @@
 //
-//  ZBCoreLocationMapKitTests.m
-//  ZBCoreLocationMapKitTests
+//  ZBCoreLocationMapKit2Tests.m
+//  ZBCoreLocationMapKit2Tests
 //
-//  Created by Zuri Biringer on 11/19/13.
+//  Created by Zuri Biringer on 11/21/13.
 //  Copyright (c) 2013 Zuri Biringer. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface ZBCoreLocationMapKitTests : XCTestCase
+@interface ZBCoreLocationMapKit2Tests : XCTestCase
 
 @end
 
-@implementation ZBCoreLocationMapKitTests
+@implementation ZBCoreLocationMapKit2Tests
 
 - (void)setUp
 {
